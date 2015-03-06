@@ -1,3 +1,8 @@
+# This program expects that the data will be extracted as follows:
+# 1. Download from:
+#    https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
+# 2. Unzip and place resulting household_power_consumption.txt in
+#    same working directory as the script.
 data <- read.table("household_power_consumption.txt", 
                    header = T,
                    sep = ";", 
